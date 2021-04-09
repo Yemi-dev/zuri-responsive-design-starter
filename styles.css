@@ -415,8 +415,9 @@ div.footer h6 {
     }
 
     ul li a:hover {
-        font-size:1.8rem ;
+        font-size:1.6rem ;
         background: transparent;
+        color:#fff;
     }
 
     ul.nav-links.show {
@@ -436,7 +437,7 @@ div.footer h6 {
     /* HERO SECTION */
     
 div.hero-section {
-    padding: 5rem;
+    padding: 5rem 2rem;
 }
 
 div.hero-content-heading h3 {
@@ -469,7 +470,7 @@ div.hero-content-btn a:hover {
     /* SUB-HERO SECTION */
 
     div.hero-background {
-        padding: 5rem ;
+        padding: 5rem 2rem ;
     }
     
     div.background {
@@ -480,11 +481,11 @@ div.hero-content-btn a:hover {
     }
     
     div.background h4 {
-        padding: 1.5rem;
+        padding: 1rem;
     }
     
     div.background p {
-        padding: 0 0 1rem 1.5rem;
+        padding: 0 0 1rem 1rem;
         
     }
     
@@ -494,7 +495,7 @@ div.hero-content-btn a:hover {
     
     div.snapshot-team p {
         letter-spacing: 1.5px;
-        padding: 1rem 3rem;
+        padding: 1rem 2rem;
         
     }
     
@@ -520,6 +521,13 @@ div.hero-content-btn a:hover {
         height: 220px;
         margin-bottom: 20px;
     }
+
+        /* GALLERY */
+
+    div.gallery-section {
+    background: #fff;
+    padding: 4rem 2rem;
+}
     
         /* FOOTER */
 
@@ -536,13 +544,13 @@ div.footer-input {
 input[type="text"] {
     margin-top: 2rem;
     padding: 10px 20px;
-    width: 61%;
+    width: 81%;
 }
 
 input[type="email"] {
     margin-top: 10px;
     padding: 10px 20px;
-    width: 61%;
+    width: 81%;
 }
 
 
@@ -553,7 +561,7 @@ div.footer-textarea {
 }
 
 textarea {
-    width: 60%;
+    width: 80%;
     height: 150px;
 }
 
@@ -575,8 +583,9 @@ div.footer-btn a {
      /* NAV*/
      
     ul li a:hover {
-        font-size:1.8rem ;
+        font-size:1.5rem ;
         background: transparent;
+        
     }
 
    /* HERO SECTION */
@@ -596,7 +605,7 @@ div.hero-content-btn a:hover {
   /* SUB-HERO SECTION */
 
   div.hero-background {
-    padding: 5rem ;
+    padding: 5rem 2rem ;
 }
 
 div.background {
@@ -611,6 +620,11 @@ div.hero-background-pos {
 div.snapshot-team h2 {
     font-size: 1.3rem;
     letter-spacing: 1.5px;
+}
+
+div.snapshot-team p {
+    padding: 1rem 1rem;
+    
 }
 
 div.snapshot-box-content {
